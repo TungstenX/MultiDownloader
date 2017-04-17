@@ -21,8 +21,8 @@ The options:
 | --parts=number | | The default is 4. Number of threads to run |
 | --buffersize=size | | The default is 8192. Reading buffer size when concatenating the file parts |
 
-* I'm following the Spring convention ([more here](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)), i.e. two dashes (--) then the parameter/argument name, then equals sign (=) and then the value (No spaces).  The parameter/argument is treated as a flag if the equals sign and value are omitted. *
-* The file will be downloaded into the current directory *
+*I'm following the Spring convention ([more here](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)), i.e. two dashes (--) then the parameter/argument name, then equals sign (=) and then the value (No spaces).  The parameter/argument is treated as a flag if the equals sign and value are omitted.*
+*The file will be downloaded into the current directory*
 
 ## To build
 You'll need Gemeenskaplik version 0.0.6, also available as one of my projects.
