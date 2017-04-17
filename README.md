@@ -24,7 +24,12 @@ The options:
 *I'm following the Spring convention ([more here](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)), i.e. two dashes (--) then the parameter/argument name, then equals sign (=) and then the value (No spaces).  The parameter/argument is treated as a flag if the equals sign and value are omitted.*
 *The file will be downloaded into the current directory*
 
-I've included a script to optimise the running the MultiDownloader; `md.sh`  
+I've included a script to optimise the running of the MultiDownloader, it is called `md.sh`. Just add the URL as an agrument, e.g.:
+
+```
+./md.sh http://www.todownload.com/some/file.txt
+```
+  
 ## To build
 You'll need Gemeenskaplik version 0.0.6, also available as one of my projects.
 
